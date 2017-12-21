@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+}
+.fr{
+	margin-top: 27px;
+}
+.img1{
+	margin-top: -100px !important;
+}
+.txt1{
+	color: red !important ;
+	text-align: center;
+}
+.border{
+	border-top: 2px groove red;
+	padding: 5px;
+	padding: 0 7em;
+  	margin: 0 -7em;
+}
+.txt2{
+	color: red !important ;
+	text-align: center;
+	width: 100%;
+}
+.capt{
+	border-bottom: 1px double red;
+}
+.newvid{
+	margin-top: -140px
+}
+.border1{
+	border-bottom: 1px solid red;
+}

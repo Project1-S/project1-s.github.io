@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project_S</title>
+       <link href="css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="stile.css">
+        <link rel="shortcut icon" href="img/favicon_s.ico" type="image/x-icon">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jq.js"></script>
+	<script src="bs.js"></script>
+	<script src="scroll.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {   
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+ var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});
+</script>
+  </head>
+
+<body> 
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>  s              <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand" href="Index.html">Project_S</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+           <li><a href="Index.html" class="buttonn">Главная</a></li>
+           <li><a href="#YouTube" class="buttonn">YouTube</a></li>
+           <li><a href="#Graffiti" class="buttonn">Граффити</a></li>
+           <li><a href="#Info" class="buttonn">О проекте/контакты</a></li>
+          </ul>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<a href="Index.html" id="Project_S"><img src="img/img1.jpg" class="img1"></a>
+<br>
+<a href="youtube.html" id="YouTube"><img src="img/img2.jpg" class="img2"></a>
+<br>
+<a href="graffiti.html" id="Graffiti"><img src="img/img4.jpg" class="img4"></a>
+<br>
+<a href="About.html" id="Info"><img src="img/img3.jpg" class="img3"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+  	var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+    return false;
+});</script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="jq.js"></script>
+	<script src="bs.js"></script>
+	<script src="scroll.js"></script>
+<DIV ID = "toTop" > ^ Наверх ^ </DIV>
+</body>
+</html>
